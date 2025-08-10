@@ -34,10 +34,8 @@ public class SimpleWebBrowser extends Application {
 
         ToolBar toolBar = new ToolBar(backButton, forwardButton, refreshButton, urlField);
 
-        // Update URL field when a new page is loaded
         webEngine.locationProperty().addListener((obs, oldLocation, newLocation) -> urlField.setText(newLocation));
 
-        // Set up the layout
         BorderPane root = new BorderPane();
         root.setTop(toolBar);
         root.setCenter(webView);
