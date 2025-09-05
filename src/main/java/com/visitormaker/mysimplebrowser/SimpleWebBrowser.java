@@ -13,7 +13,6 @@ public class SimpleWebBrowser extends Application {
     @Override
     public void start(Stage primaryStage) {
         // Create a WebView and WebEngine
-
         WebView webView = new WebView();
         WebEngine webEngine = webView.getEngine();
 
