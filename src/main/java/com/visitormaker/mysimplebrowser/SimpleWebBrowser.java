@@ -45,8 +45,7 @@ public class SimpleWebBrowser extends Application {
         primaryStage.setTitle("Simple Web Browser");
         primaryStage.setScene(scene);
         primaryStage.show();
-    }
-
+    }//
     public static void main(String[] args) {
         launch(args);
     }
